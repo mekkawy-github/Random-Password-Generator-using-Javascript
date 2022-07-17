@@ -1,3 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f5670;
+}
+.container form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container form input:first-child {
+  border: none;
+  outline: none;
+  padding: 30px;
+  background-color: rgb(59, 59, 150);
+  border: 2px solid rgb(0, 24, 142);
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
 
 /*# sourceMappingURL=index.css.map */
